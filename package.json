@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc -d",
     "start": "ts-node src/main.ts",
+    "test": "jest",
     "migrate": "prisma migrate dev --preview-feature"
   },
   "dependencies": {
